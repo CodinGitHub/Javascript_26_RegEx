@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Register validation</title>
 </head>
 <body>
+    <form action="#">
+        <input id="email" type="email" placeholder="Correo">
+        <div id="email-error" class="error">Ingrese un correo válido</div>
+
+        <input id="pass" type="password" placeholder="Contraseña">
+        
+        <input id="show" type="checkbox">
+        <label for="show">Mostrar</label>
+        
+        <input id="submit" type="submit" value="Registrar">
+
+        <div id="pass-error" class="error">
+            <p>La contraseña debe contener</p>
+            <ul>
+                <li>Al menos un número</li>
+                <li>Al menos una mayúscula</li>
+                <li>Al menos un caracter especial</li>
+                <li>Como mínimo debe tener 8 caracteres</li>
+            </ul>
+        </div>
+        
+    </form>
     <script src="./main.js"></script>
 </body>
 </html>

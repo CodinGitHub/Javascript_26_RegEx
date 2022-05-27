@@ -1,0 +1,31 @@
+body{
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 5px 5px;
+    margin: 64px auto;
+    width: 560px;
+}
+.error{
+    font-size: 24px;
+    color: red;
+    visibility: hidden;
+}
+input[type="email"]{
+    display: block;
+    font-size: 32px;
+}
+input[type="password"],
+input[type="text"]{
+    margin-top: 10px;
+    font-size: 32px;
+}
+input[type="submit"]{
+    display: block;
+    margin-top: 36px;
+    font-size: 32px;
+}
